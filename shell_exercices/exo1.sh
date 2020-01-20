@@ -7,3 +7,6 @@ BirthDay=`date -d "$BirthDate" +%A`
 echo "I was born the $BirthDate or $BirthDateLetters today, i got $Presents presents and the day is $BirthDay so i don't have school :) "
 
 echo "but slave is real"
+
+echo $#
+
